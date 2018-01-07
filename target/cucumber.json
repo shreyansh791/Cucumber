@@ -1,0 +1,73 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Login Scenario",
+        "description": "",
+        "id": "guru99-application-testing;login-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "\"a\" is on \"Home Page1\"",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user selects item",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "ScreenName",
+                  "LogicalName"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "Gmail",
+                  "gmail"
+                ],
+                "line": 7
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "user loads page",
+            "match": {},
+            "keyword": "And ",
+            "doc_string": {
+              "content_type": "",
+              "line": 9,
+              "value": "Hello Mr. Jain"
+            }
+          }
+        ]
+      }
+    ],
+    "name": "Guru99 Application Testing",
+    "description": "",
+    "id": "guru99-application-testing",
+    "keyword": "Feature",
+    "uri": "features/Login.feature"
+  }
+]
